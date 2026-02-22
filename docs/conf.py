@@ -34,7 +34,15 @@ extlinks = {
 
 html_theme = 'furo'
 html_theme_options = {
-    'githuburl': 'https://github.com/ionelmc/python-lazy-object-proxy/',
+    'source_repository': 'https://github.com/ionelmc/python-lazy-object-proxy/',
+    'source_branch': 'master',
+    'source_directory': 'docs/',
+    'footer_icons': [
+        {
+            'url': 'https://github.com/ionelmc/python-lazy-object-proxy/',
+            'html': 'github.com/ionelmc/python-lazy-object-proxy',
+        },
+    ],
 }
 
 html_use_smartypants = True

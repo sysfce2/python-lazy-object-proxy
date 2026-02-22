@@ -2,7 +2,6 @@
 Overview
 ========
 
-.. start-badges
 
 .. list-table::
     :stub-columns: 1
@@ -16,42 +15,31 @@ Overview
 .. |docs| image:: https://readthedocs.org/projects/python-lazy-object-proxy/badge/?style=flat
     :target: https://readthedocs.org/projects/python-lazy-object-proxy/
     :alt: Documentation Status
-
 .. |github-actions| image:: https://github.com/ionelmc/python-lazy-object-proxy/actions/workflows/github-actions.yml/badge.svg
     :alt: GitHub Actions Build Status
     :target: https://github.com/ionelmc/python-lazy-object-proxy/actions
-
 .. |coveralls| image:: https://coveralls.io/repos/github/ionelmc/python-lazy-object-proxy/badge.svg?branch=master
     :alt: Coverage Status
     :target: https://coveralls.io/github/ionelmc/python-lazy-object-proxy?branch=master
-
 .. |codecov| image:: https://codecov.io/gh/ionelmc/python-lazy-object-proxy/branch/master/graphs/badge.svg?branch=master
     :alt: Coverage Status
     :target: https://app.codecov.io/github/ionelmc/python-lazy-object-proxy
-
 .. |version| image:: https://img.shields.io/pypi/v/lazy-object-proxy.svg
     :alt: PyPI Package latest release
     :target: https://pypi.org/project/lazy-object-proxy
-
 .. |wheel| image:: https://img.shields.io/pypi/wheel/lazy-object-proxy.svg
     :alt: PyPI Wheel
     :target: https://pypi.org/project/lazy-object-proxy
-
 .. |supported-versions| image:: https://img.shields.io/pypi/pyversions/lazy-object-proxy.svg
     :alt: Supported versions
     :target: https://pypi.org/project/lazy-object-proxy
-
 .. |supported-implementations| image:: https://img.shields.io/pypi/implementation/lazy-object-proxy.svg
     :alt: Supported implementations
     :target: https://pypi.org/project/lazy-object-proxy
-
 .. |commits-since| image:: https://img.shields.io/github/commits-since/ionelmc/python-lazy-object-proxy/v1.12.0.svg
     :alt: Commits since latest release
     :target: https://github.com/ionelmc/python-lazy-object-proxy/compare/v1.12.0...master
 
-
-
-.. end-badges
 
 A fast and thorough lazy object proxy.
 
