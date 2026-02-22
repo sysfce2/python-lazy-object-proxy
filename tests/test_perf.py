@@ -3,7 +3,7 @@ from functools import partial
 import pytest
 
 
-@pytest.mark.parametrize('name', ['slots', 'cext', 'simple', 'django', 'objproxies'])
+@pytest.mark.parametrize('name', ['slots', 'cext', 'simple', 'django', 'objproxies', 'wrapt'])
 def test_perf(benchmark, name, lop_loader):
     implementation = lop_loader(name)
     obj = 'foobar'

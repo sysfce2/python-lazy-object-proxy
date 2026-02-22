@@ -13,6 +13,7 @@ benchmark = [
     "pytest-benchmark",
     "Django",
     "objproxies==0.9.4",
+    "wrapt==2.0.0",
 ]
 
 [project]
